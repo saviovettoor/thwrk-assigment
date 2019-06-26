@@ -59,8 +59,8 @@ NOTE: in the setup we have use birectional sync of file(swarm token) to bring up
 ```
 #### Now let put a local host entry in your local and access the app.<br>
 ```
-Windows: c:\Windows\System32\Drivers\etc\hosts<br>
-Linux: /etc/hosts<br>
+Windows: c:\Windows\System32\Drivers\etc\hosts
+Linux: /etc/hosts
 
 10.0.8.20 www.companynews.com
 ```
