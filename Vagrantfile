@@ -24,7 +24,7 @@ Vagrant.configure("2") do |config|
 		end
 		master.vm.provision "shell", inline: "docker swarm init --advertise-addr 10.0.8.20 --listen-addr 10.0.8.20:2377"
         master.vm.provision "shell", inline: "docker swarm join-token -q worker > /vagrant/token"
-		master.vm.provision "file", source: "docker-compose.yaml", destination: "/opt/docker-compose.yaml"
+		master.vm.provision "file", source: "docker-compose.yaml", destination: "/home/vagrant/docker-compose.yaml"
 	end
 	
 	config.vm.define "swarmnode2" do |worker|
@@ -35,8 +35,8 @@ Vagrant.configure("2") do |config|
 		  ps.memory=2048
 		end
 		worker.vm.provision "shell", inline: "docker swarm join --advertise-addr 10.0.8.20 --listen-addr 10.0.8.20:2377 --token `cat /vagrant/token` 10.0.8.20:2377"
-		worker.vm.provision "file", source: "docker-compose.yaml", destination: "/opt/docker-compose.yaml"
-		worker.vm.provision "shell", inline: "/usr/local/bin/docker-compose up &"
+		worker.vm.provision "file", source: "docker-compose.yaml", destination: "/home/vagrant/docker-compose.yaml"
+		worker.vm.provision "shell", inline: "/usr/local/bin/docker-compose -f /home/vagrant/docker-compose.yaml up -d"
 		
 	end
 end
