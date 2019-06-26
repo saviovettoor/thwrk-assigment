@@ -1,13 +1,14 @@
 ### companyNews App on Vagrant + Docker-swarm
 
-##### Tool stacks
+#### Tool stacks
 * Vagrant
 * Docker
 * Docker swarm for orchestration
+* OS: Centos/7
 
 #### Prerequisite
 Clone the repo on local system from where you want to bring-up the setup. Install the below packages:
-* <b>docker-ce:</b> for image creation 
+* <b>Docker-ce:</b> for image creation 
 * <b>Vagrant:</b>
 
 #### Instruction
