@@ -68,10 +68,8 @@ Now you will be able to access the app over http and https: www.companynews.com
 
 #### MISC
 ---------
-```
-How self signed certificated (link)[https://github.com/saviovettoor/DevOps-wiki/wiki/self-signed-certificates]
-If you have a valid domain and no need a self signed one you go can goahead with ssl certificate providers paid one or free on the Let's  Encrypt(https://github.com/saviovettoor/DevOps-wiki/wiki/Let%E2%80%99s-Encrypt-SSL-Certificates-using-Standalone-Manual-Mode)
-```
+How self signed certificate is created: <b>[link](https://github.com/saviovettoor/DevOps-wiki/wiki/self-signed-certificates)</b> <br>
+If you have a valid domain and no need a self signed one you go can goahead with ssl certificate providers paid one or free on the Let's  Encrypt: <b>[link](https://github.com/saviovettoor/DevOps-wiki/wiki/Let%E2%80%99s-Encrypt-SSL-Certificates-using-Standalone-Manual-Mode)</b>
 
 ### On Production
-To make production ready setup please have a look [link](https://github.com/saviovettoor/thwrk-assigment/wiki/On-production)
+To make production ready setup please have a look: <b>[link](https://github.com/saviovettoor/thwrk-assigment/wiki/On-production)</b>
