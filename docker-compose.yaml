@@ -1,0 +1,18 @@
+version: "2"
+services:
+    webserver:
+        image: saviovettoor/thwrkwebserver
+        ports:
+          - "80:80"
+          - "443:443"
+        networks:
+          - mynetwork
+    appserver:
+        image: saviovettoor/thwrkappserver
+        networks:
+          - mynetwork
+        expose:
+          - 8080
+networks:
+    mynetwork:
+        driver: bridge
