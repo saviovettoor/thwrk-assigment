@@ -57,7 +57,7 @@ This will bringup two machines with dockerswarm cluster and your app.
 
 NOTE: in the setup we have use birectional sync of file(swarm token) to bring up the cluster, some this can fail based on vagrant version and virtualbox version which you are using, there already a bug on this.IF failed what need to be done to bring up the app [link](https://github.com/saviovettoor/thwrk-assigment/wiki/On-fail!!!!)
 ```
-Now let put a local host entry in your local and access the app.<br>
+#### Now let put a local host entry in your local and access the app.<br>
 ```
 Windows: c:\Windows\System32\Drivers\etc\hosts<br>
 Linux: /etc/hosts<br>
