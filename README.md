@@ -1,4 +1,4 @@
-### CompanyNews App on Vagrant + Docker-swarm
+### companyNews App on Vagrant + Docker-swarm
 
 #### Tool stacks
 * Vagrant
