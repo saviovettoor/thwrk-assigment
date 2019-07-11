@@ -49,7 +49,7 @@ PROVIDE YOUR USER NAME AND PASSOWORD
 ```
 
 ```
-NOW lets bring up the app:
+NOW let's bring up the app:
 1. Move on to the main folder "thwrk-assigment"
 2. vagrant up
 
