@@ -5,7 +5,7 @@
 * Virtualbox
 * Docker
 * Docker swarm for orchestration
-* OS: Centos/7
+* OS: Centos-7
 
 #### Prerequisite
 Clone the repo on local system from where you want to bring-up the setup. Install the below packages:
