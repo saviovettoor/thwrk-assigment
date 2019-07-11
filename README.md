@@ -2,6 +2,7 @@
 
 #### Tool stacks
 * Vagrant
+* Virtualbox
 * Docker
 * Docker swarm for orchestration
 * OS: Centos/7
